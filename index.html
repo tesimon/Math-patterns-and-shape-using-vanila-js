@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematical pattern and shapes</title>
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body>
+   <div>
+    <button class="toggle-button"  >play with shapes</button>
+    <div class="container ">
+      <h3>Mathematical pattern and shapes</h3>
+      <div class="controls">
+        <div style="display: flex; align-items: center;">
+          <span>Zoom:</span>
+          <input type="range" id="zoomRangeInput" min="0" max="5" step="1" value="1">
+        </div>
+       
+        <div>
+          <span>Shapes:</span>
+          <select id="shapesSelect" >
+            <option value="curl" >Curl</option>   
+            <option value="spiral">Spiral</option>
+          </select>
+        </div>
+      </div>
+     
+     
+      <button class="toggle-button2"  >Hide content bar</button>
+     
+    </div>
+    </div>
+   </div>
+    <canvas id="canvas"></canvas>
+    <script src="main.js"></script>
+    <script src="events.js"></script>
+  </body>
+</html>
